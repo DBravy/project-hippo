@@ -1,0 +1,106 @@
+{
+  "params": {
+    "d_ec": 1000,
+    "N_features": 200,
+    "D_dg": 1000,
+    "N_ca3": 1000,
+    "N_ca1": 1000,
+    "N_sub": 1000,
+    "k_ca3": 50,
+    "N_experience": 500,
+    "N_probe": 500
+  },
+  "replay_quality": {
+    "ca1_vs_stellate": 0.2604608753928392,
+    "sub_vs_pyramidal": 0.4466629631761503,
+    "gated_hippo_vs_gated_ec": 0.25936863714928965,
+    "gated_hippo_vs_ec_input": 0.007528312398275576
+  },
+  "active_fractions": {
+    "stel": 0.04096,
+    "pyr": 0.49845500000000004,
+    "ca1": 0.05,
+    "sub": 0.5,
+    "gated": 0.05
+  },
+  "mismatch_detection": {
+    "familiar_mean": 0.7406313628507104,
+    "novel_mean": 0.8471767486259768,
+    "separation": 0.1065453857752664,
+    "p_val": 5.04381457657665e-16
+  },
+  "stage_representations": {
+    "EC": {
+      "n_dims": 1000,
+      "active_fraction": 0.5019166666666667,
+      "participation_ratio": 86.03731991626249,
+      "pr_normalized": 0.08603731991626248,
+      "mean_pairwise_sim": 0.04548759441551301,
+      "feature_decode_r2_mean": 0.9999651455907943
+    },
+    "Stellate": {
+      "n_dims": 1000,
+      "active_fraction": 0.040786666666666666,
+      "participation_ratio": 148.68688027477916,
+      "pr_normalized": 0.14868688027477917,
+      "mean_pairwise_sim": 0.03312225991156305,
+      "feature_decode_r2_mean": 0.9330162315079071
+    },
+    "Pyramidal": {
+      "n_dims": 1000,
+      "active_fraction": 0.4969266666666667,
+      "participation_ratio": 98.77294120530921,
+      "pr_normalized": 0.0987729412053092,
+      "mean_pairwise_sim": 0.34271427313548053,
+      "feature_decode_r2_mean": 0.9996575244988221
+    },
+    "DG": {
+      "n_dims": 1000,
+      "active_fraction": 0.051383333333333336,
+      "participation_ratio": 141.95981480960836,
+      "pr_normalized": 0.14195981480960837,
+      "mean_pairwise_sim": 0.033161699610825976,
+      "feature_decode_r2_mean": 0.25381579979763
+    },
+    "CA3": {
+      "n_dims": 1000,
+      "active_fraction": 0.05,
+      "participation_ratio": 17.884261555694206,
+      "pr_normalized": 0.017884261555694204,
+      "mean_pairwise_sim": 0.1352728695553037,
+      "feature_decode_r2_mean": 0.8775611240241727
+    },
+    "CA1": {
+      "n_dims": 1000,
+      "active_fraction": 0.05,
+      "participation_ratio": 7.741655258698282,
+      "pr_normalized": 0.0077416552586982825,
+      "mean_pairwise_sim": 0.34853014255296455,
+      "feature_decode_r2_mean": 0.7155453391837979
+    },
+    "Sub": {
+      "n_dims": 1000,
+      "active_fraction": 0.5,
+      "participation_ratio": 4.606930024865327,
+      "pr_normalized": 0.004606930024865327,
+      "mean_pairwise_sim": 0.7749575155795438,
+      "feature_decode_r2_mean": 0.9928692827119607
+    },
+    "Gated_hippo": {
+      "n_dims": 1000,
+      "active_fraction": 0.05,
+      "participation_ratio": 8.143985037637023,
+      "pr_normalized": 0.008143985037637023,
+      "mean_pairwise_sim": 0.35722059363062786,
+      "feature_decode_r2_mean": 0.5688050578785384
+    },
+    "Gated_EC": {
+      "n_dims": 1000,
+      "active_fraction": 0.040786666666666666,
+      "participation_ratio": 148.18392484558163,
+      "pr_normalized": 0.14818392484558163,
+      "mean_pairwise_sim": 0.031886851138404955,
+      "feature_decode_r2_mean": 0.7645737994297689
+    }
+  }
+}
